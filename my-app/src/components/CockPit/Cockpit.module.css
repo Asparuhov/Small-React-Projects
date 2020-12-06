@@ -1,0 +1,26 @@
+.Cockpit {
+    box-shadow: 1px 0 3px #cccccc;
+    margin: auto;
+    width: 60%;
+    
+    text-align: center;
+    padding:16px;
+  }
+  
+  .Button {
+    background-color: green;
+    color:white;
+    border-radius: 8px;
+    border: 3px solid black;
+    font: inherit;
+    padding: 8px;
+    cursor:pointer;
+  }
+  
+  .Button:hover {
+    background-color: salmon;
+    color:black;
+  
+  }
+  
+  

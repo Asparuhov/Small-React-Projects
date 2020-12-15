@@ -1,0 +1,11 @@
+
+.Row{
+    display:flex;
+    justify-content: center;
+    margin: 15px;
+}
+
+.App{
+    flex:block;
+    justify-content: center;
+}

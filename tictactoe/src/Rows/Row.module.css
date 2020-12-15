@@ -1,0 +1,7 @@
+.Row{
+    display:flex;
+    align-items: center;
+    box-sizing: border-box;
+    flex-flow: row;
+    justify-content: center;
+}

@@ -1,0 +1,10 @@
+.Square{
+    width: 200px;
+    height: 200px;
+    border: 3px solid black;
+    font-size: 150px;
+    text-align: center;
+    line-height: 120px;
+    cursor: pointer;
+    user-select: none; 
+}

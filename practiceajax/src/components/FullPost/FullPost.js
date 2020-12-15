@@ -27,7 +27,7 @@ class FullPost extends Component {
             post = (
                 <div className="FullPost">
                     <h1>{this.state.postSelected.title}</h1>
-                    <p>{this.state.postSelected.content}</p>
+                    <p>{this.state.postSelected.body}</p>
                     <div className="Edit">
                         <button className="Delete">Delete</button>
                     </div>

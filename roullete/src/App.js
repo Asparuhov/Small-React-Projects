@@ -1,9 +1,19 @@
-import React from 'react';
+import React, { useState, useEffect } from "react";
 
-import Ingredients from './components/Ingredients/Ingredients';
+const App = (props) => {
+  let [count, setCount] = useState(100);
 
-const App = props => {
-  return <Ingredients />;
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCount(prev => prev - 1)
+    }, 1000);
+    return () => clearInterval(interval);
+  }, []);
+  return (
+    <div>
+      <h1>{count}</h1>
+    </div>
+  );
 };
 
 export default App;

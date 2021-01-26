@@ -1,10 +1,11 @@
 import React from 'react';
+import TextField from './TextField';
 
 function App() {
-  enum Color {Green, Red, Blue}
+  
   return (
     <div>
-      {Color.Red}
+      <TextField person={{firstName: 'Kristiyan', lastName: 'Asparuhov', age: 25}}/>
     </div>
   );
 }
